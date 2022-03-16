@@ -110,7 +110,8 @@ body {
 }
 
 .card ul{
-  margin-left: -0.3rem !important;
+  margin-left: 0;
+  padding: 0;
 }
 
 .card li{
