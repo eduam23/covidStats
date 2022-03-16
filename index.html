@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ESTADÍSTICAS COVID - PERÚ</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container center">
+        <div class="card">
+            <h2>ESTADÍSTICAS COVID19 - LATAM</h2>
+
+            <b>  Fecha : </b><input id="inputFecha" type="date" /><br /><br />
+            <b>País : </b>
+            <select id="selectPais">
+                <option value="Spain">España</option>
+                <option value="Peru" selected> <p>Perú</p> </option>
+                <option value="Chile">Chile</option>
+                <option value="Argentina">Argentina</option>
+                <option value="Brazil">Brasil</option>
+                <option value="Ecuador">Ecuador</option>
+                <option value="Uruguay">Uruguay</option>
+                <option value="Venezuela">Venezuela</option>
+                <option value="Colombia">Colombia</option>
+                <option value="Bolivia">Bolivia</option>
+            </select>
+            <br /><br />
+            <button id="btnCargar">Cargar Estadísticas</button>
+            <br><br>
+            <ul>
+                <li><p>Casos confirmados : <span id="today_confirmed"></span></p> </li>
+                <li><p>Muertes totales: <span id="today_deaths"></span></p> </li>
+                <li><p>Nuevos confirmados : <span id="today_new_confirmed"></span></p> </li>
+                <li><p>Nuevas muertes : <span id="today_new_deaths"></span></p></li>
+                <li><p>Nuevos casos : <span id="today_new_open_cases"></span></p></li>
+                <li><p>Nuevos recuperados : <span id="today_new_recovered"></span></p></li>
+                <li><p>Casos abiertos : <span id="today_open_cases"></span></p></li>
+                <li><p>Recuperados totales: <span id="today_recovered"></span></p></li>
+            </ul>
+
+        </div>
+
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
