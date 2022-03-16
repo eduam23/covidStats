@@ -115,7 +115,7 @@ body {
 
 .card li{
   list-style: none;
-  margin-left: 0rem;
+  margin-left: -0.1rem;
 }
 /* Safari 4.0 - 8.0 */
 @-webkit-keyframes line-show {
