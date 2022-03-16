@@ -110,7 +110,7 @@ body {
 }
 
 .card ul{
-  margin-left: -2rem;
+  margin-left: -0.3rem !important;
 }
 
 .card li{
