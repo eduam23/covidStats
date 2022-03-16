@@ -110,12 +110,12 @@ body {
 }
 
 .card ul{
-  margin-left: 0;
+  margin-left: -2rem;
 }
 
 .card li{
   list-style: none;
-  margin-left: -0.1rem;
+  margin-left: 0;
 }
 /* Safari 4.0 - 8.0 */
 @-webkit-keyframes line-show {
